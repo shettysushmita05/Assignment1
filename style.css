@@ -27,7 +27,8 @@ body {
 }
 
 .site-title {
-    font-size: 2rem;
+    font-size: 4vw;
+    /* font-size: 2rem; */
     text-align: center;
 }
 
@@ -45,7 +46,8 @@ body {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
+    font-size: 2vw;
 }
 
 .nav ul li a:hover {
@@ -72,7 +74,8 @@ body {
 }
 
 .section-title {
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
+    font-size: 3vw;
     margin-bottom: 1rem;
     color: #3498db;
 }
@@ -108,10 +111,12 @@ body {
     padding: 1.5rem;
     border-radius: 8px;
     text-align: center;
+    font-size: 1.5vw;
 }
 
 .grid-item h3 {
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
+    font-size: 2vw;
     margin-bottom: 0.5rem;
     background-color:black;
 }
@@ -142,6 +147,7 @@ img{
 @media (min-width: 768px) {
     .grid {
         grid-template-columns: repeat(2, 1fr);
+        
     }
 
     .nav ul {
